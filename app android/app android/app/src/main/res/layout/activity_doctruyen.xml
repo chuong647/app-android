@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".doctruyenActivity">
+
+    <ImageView
+        android:id="@+id/imgAnh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+<!--    <Button-->
+<!--        android:id="@+id/backdoc"-->
+<!--        android:layout_width="40dp"-->
+<!--        android:layout_height="40dp"-->
+<!--        android:backgroundTint="#8C5F5F"-->
+<!--        android:rotationX="-8"-->
+<!--        app:icon="@drawable/ic_baseline_arrow_back_24"-->
+<!--        app:iconTint="#931616" />-->
+
+
+<!--    <Toolbar-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="32dp"-->
+<!--        android:background="#7E5656" />-->
+
+    <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerVertical="true"
+            android:onClick="left"
+            android:padding="10dp"
+            android:src="@drawable/left"
+            app:tint="#453838"
+        tools:ignore="OnClick" />
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:onClick="right"
+        android:padding="10dp"
+        android:rotation="180"
+        android:src="@drawable/left"
+        app:tint="#453838"
+        tools:ignore="OnClick" />
+
+    <TextView
+        android:id="@+id/txvsotrang"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/bg_sotrang"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text=""
+        android:textColor="#fff"
+        android:textSize="15sp" />
+
+
+    </RelativeLayout>

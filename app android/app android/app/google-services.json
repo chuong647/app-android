@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "629911623375",
+    "project_id": "app-truyen-b0522",
+    "storage_bucket": "app-truyen-b0522.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:629911623375:android:9894fffdc42b1a28b049ba",
+        "android_client_info": {
+          "package_name": "com.example.apptruyn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "629911623375-vve67c161l89ot8e9rrd2vkqgh2vften.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmDNfRSx3DyICSauCJaE6CT6XzqDGEno8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "629911623375-vve67c161l89ot8e9rrd2vkqgh2vften.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,19 @@
+*tk database 
+id18841810_apptruyen
+id18841810_lecaoha2002
+
+*tài khoản phpMyAdmin:
+link:https://databases.000webhost.com/
+le_cao_ha
+0XF4MyeC7rQOs7j{
+
+*link thêm truyện chap:
+https://appmobile1.000webhostapp.com/filethemdulieu/truy%e1%bb%87n/
+
+*thêm ảnh truyện 
+link ảnh:http://cdn6.truyentranh8.net/hdd2/u2/fuugay/31267/1-/8362-431769-25.jpg
+id chap:6
+INSERT INTO `Anh` (`id`, `anh`, `idChap`) VALUES (NULL, 'http://cdn6.truyentranh8.net/hdd2/u2/fuugay/31267/1-/8362-431769-25.jpg', '6');
+
+***có vấn đề gì về app liên hệ zalo 0369113205***
+link tải app: vào đường dẫn..\app android\fileapk\release.

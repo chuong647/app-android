@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        app:cardCornerRadius="15dp">
+
+        <ImageView
+            android:id="@+id/imganhtruyen"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/a1" />
+
+
+        <TextView
+            android:id="@+id/tenchap"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="150dp"
+            android:background="#B0D5CACA"
+            android:gravity="center"
+            android:text="Truyện tranh"
+            android:textColor="@color/black"
+            android:textSize="10dp" />
+
+    </androidx.cardview.widget.CardView>
+
+            <TextView
+
+                android:id="@+id/tentruyen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:gravity="center"
+                android:text="Tên truyện tranh"
+                android:textSize="14dp"
+                android:textColor="#ECE"/>
+
+
+</LinearLayout>

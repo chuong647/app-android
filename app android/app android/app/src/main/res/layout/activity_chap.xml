@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <Toolbar
+         android:layout_width="match_parent"
+          android:layout_height="32dp"
+       android:background="#FFFFCC" >
+            <Button
+                android:id="@+id/backhome"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:backgroundTint="#FFFFCC"
+                android:rotationX="-8"
+                app:icon="@drawable/ic_baseline_arrow_back_24"
+                app:iconTint="#931616" />
+
+    </Toolbar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+        <ImageView
+            android:id="@+id/imgtruyen"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/nghichthien"
+            android:scaleType="centerCrop"
+            />
+
+        <TextView
+            android:id="@+id/txvtentruyen"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#6A000000"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="tên truyện"
+            android:textColor="#EFE8E8"
+            android:textSize="35dp" />
+
+    </RelativeLayout>
+
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFCC"
+        android:backgroundTint="#FFFFCC"
+        android:title="Danh Sách Chương"
+        android:titleTextColor="#344B73" />
+
+    <ListView
+        android:id="@+id/lsvdanhSachchuong"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+</LinearLayout>
